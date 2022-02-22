@@ -78,4 +78,6 @@ The number of logical cores and the total number of records to insert could be a
 
 This is not required for the assignment -- but try using Threads instead of processes. Compare the timing of the two. Note: since the ``multiprocessing`` and ``threading`` modules have very similar interfaces, this is quite easy to do.
 
-NOTE: pymongo does not suport async -- so that's a real challenge.
+And for even more fun and profit: try a Queue -- with either threads or subprocesses.
+
+NOTE: pymongo does not support async -- so that's a real challenge.
